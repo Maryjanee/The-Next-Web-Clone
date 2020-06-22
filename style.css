@@ -52,6 +52,10 @@ i {
   justify-content: center;
 }
 
+.grid-container {
+  display: grid;
+}
+
 .nav-icons i {
   border-left: 1px solid var(--grey);
 }
@@ -68,4 +72,8 @@ i {
   font-size: 0.8rem;
   padding: 0.8rem 1.2rem;
   background-color: var(--yellow);
+}
+
+.main-article:first-child {
+  background-image: url("&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/office-growth-startup-gq-796x417.png&quot");
 }

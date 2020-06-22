@@ -1,9 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+:root {
+  --white: #fff;
+  --red: #f42;
+  --black: #000;
+  --yellow: #fd3;
+  --green: #0cc;
+  --purple: #800080;
+  --grey: #aaa;
+  --footer-grey: #555;
+  --blue: #146ff8;
+}
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
 }

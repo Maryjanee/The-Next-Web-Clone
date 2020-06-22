@@ -48,6 +48,7 @@ i {
 }
 
 .margin-center {
+  width: 98%;
   margin: 0 auto;
 }
 
@@ -86,7 +87,6 @@ i {
 }
 
 .main-section {
-  width: 98%;
   grid-template: 1fr;
   grid-gap: 0.8rem;
 }
@@ -137,4 +137,17 @@ i {
 
 .main-section-interactions p {
   font-size: 0.7em;
+}
+
+.latest-news-section {
+  margin: 1rem 1rem;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  width: 100%;
+}
+
+.latest-news img {
+  width: 10rem;
+  height: 7rem;
+  float: left;
 }

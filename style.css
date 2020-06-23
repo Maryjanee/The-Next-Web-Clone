@@ -126,15 +126,22 @@ header {
   z-index: 99;
 }
 
-header div:first-child {
+.display-media {
+  display: none;
+}
+
+.logo-header {
   background-color: var(--white);
+}
+
+.logo-lg {
+  display: none;
 }
 
 .header-ad {
   font-size: 0.8rem;
   padding: 0.75rem 1.2rem;
   background-color: var(--yellow);
-  border: 1px solid green;
 }
 
 main {
@@ -376,11 +383,15 @@ footer {
   padding: 2rem 1rem 1rem 1rem;
 }
 
+.social-links li {
+  margin-right: 0.3rem;
+}
+
 .social-links li a i {
   color: var(--white);
   background: #333;
   border-radius: 50%;
-  margin-right: 0.5rem;
+  border: 2px solid #333;
 }
 
 .social-links li a i:hover {
@@ -391,6 +402,7 @@ footer {
 .footer-links {
   margin: 2rem 0;
 }
+
 .footer-links li a {
   color: #939393;
   font-size: 0.8rem;
@@ -418,4 +430,22 @@ footer {
 
 .footer-text-section div a img {
   width: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .display-media {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .bars {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  
 }

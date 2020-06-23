@@ -53,6 +53,10 @@ i {
   color: var(--black);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .bg-image-cover {
   background-position: center;
   background-size: cover;
@@ -395,4 +399,23 @@ footer {
 
 .footer-links li a:hover {
   color: var(--white);
+}
+
+.footer-text-section {
+  background: var(--black);
+  padding: 2rem 0;
+}
+
+.footer-text-section div img {
+  width: 2.5rem;
+  margin-right: 0.4rem;
+}
+
+.footer-text-section * {
+  color: #939393;
+  font-size: 0.8rem;
+}
+
+.footer-text-section div a img {
+  width: 4rem;
 }

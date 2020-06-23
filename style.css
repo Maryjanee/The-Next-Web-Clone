@@ -8,7 +8,7 @@
   --green: #0cc;
   --purple: #800080;
   --grey: #ddd;
-  --footer-grey: #555;
+  --footer-grey: #131313;
   --blue: #146ff8;
   --dark-grey: #aaa;
   --dark-pink: #ffebe8;
@@ -347,4 +347,30 @@ main {
 .article-list li a {
   font-size: 0.8rem;
   color: #555;
+}
+
+.latest-deals-section {
+  padding-top: 2rem;
+}
+
+.latest-deals-header a {
+  font-size: 0.8rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-right: 0.6rem;
+}
+
+footer {
+  margin-top: 7rem;
+}
+
+.footer-links-section {
+  background-color: var(--footer-grey);
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.social-links li {
+
 }

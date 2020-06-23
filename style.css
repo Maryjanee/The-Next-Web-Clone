@@ -119,6 +119,13 @@ i {
   padding: 0.5rem 0;
 }
 
+.social-links li a i {
+  color: var(--white);
+  background: #333;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
 .nav-icons i:first-child {
   color: var(--grey);
 }
@@ -193,7 +200,8 @@ main {
 
 .main-article:first-child {
   padding: 3em 1.2em 0 1.2em;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -206,7 +214,8 @@ main {
 }
 
 .main-article:last-child {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -241,6 +250,11 @@ main {
   margin-right: 1rem;
 }
 
+.bottom-article h3 {
+  padding: 1.2rem 0;
+  font-size: 1.8rem;
+}
+
 .latest-news div h3 {
   font-size: 0.9rem;
   font-weight: bold;
@@ -251,6 +265,17 @@ main {
 .latest-news div h3:hover {
   color: var(--red);
   text-decoration: underline;
+}
+
+.sub-article a {
+  display: block;
+  font-weight: bold;
+  padding-right: 7rem;
+  font-size: 0.85rem;
+}
+
+.latest-deals-header a {
+  font-size: 0.8rem;
 }
 
 .funding-section li a {
@@ -273,6 +298,21 @@ main {
 .funder > p,
 .funder-icon {
   padding: 0.7rem 1.3rem;
+}
+
+.sub-article p {
+  text-transform: uppercase;
+}
+
+.article-list li a {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.footer-links li a {
+  color: #939393;
+  font-size: 0.8rem;
+  padding: 0 0.2rem;
 }
 
 .latest-news div p,
@@ -321,13 +361,9 @@ main {
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
-.bottom-article h3 {
-  padding: 1.2rem 0;
-  font-size: 1.8rem;
-}
-
 .most-popular {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -342,6 +378,11 @@ main {
   text-transform: uppercase;
 }
 
+.footer-text-section * {
+  color: #939393;
+  font-size: 0.8rem;
+}
+
 .most-popular small,
 .most-popular small * {
   font-size: 0.7rem;
@@ -352,17 +393,6 @@ main {
   position: relative;
   background-color: #fff4f2;
   padding: 1rem 1rem 2rem 1rem;
-}
-
-.sub-article p {
-  text-transform: uppercase;
-}
-
-.sub-article a {
-  display: block;
-  font-weight: bold;
-  padding-right: 7rem;
-  font-size: 0.85rem;
 }
 
 .sub-article img {
@@ -380,25 +410,18 @@ main {
   display: inline-block;
   width: 1em;
 }
+
 .article-list li {
   padding: 0.3rem;
   border-bottom: 1px solid var(--grey);
 }
 
-.article-list li a {
-  font-size: 0.8rem;
-  color: #555;
-}
-
 .latest-deals-section {
   padding-top: 2rem;
 }
+
 .latest-deals-discount-container {
   display: none;
-}
-
-.latest-deals-header a {
-  font-size: 0.8rem;
 }
 
 .old-price {
@@ -419,13 +442,6 @@ footer {
   margin-right: 0.3rem;
 }
 
-.social-links li a i {
-  color: var(--white);
-  background: #333;
-  border-radius: 50%;
-  border: 2px solid #333;
-}
-
 .social-links li a i:hover {
   border: 2px solid #333;
   background-color: var(--black);
@@ -433,12 +449,6 @@ footer {
 
 .footer-links {
   margin: 2rem 0;
-}
-
-.footer-links li a {
-  color: #939393;
-  font-size: 0.8rem;
-  padding: 0 0.2rem;
 }
 
 .footer-links li a:hover {
@@ -455,13 +465,12 @@ footer {
   margin-right: 0.4rem;
 }
 
-.footer-text-section * {
-  color: #939393;
-  font-size: 0.8rem;
-}
-
 .footer-text-section div a img {
   width: 4rem;
+}
+
+.heart {
+  color: var(--red);
 }
 
 @media screen and (min-width: 768px) {
@@ -504,8 +513,15 @@ footer {
     align-items: center;
   }
 
-  .top-nav ul li,
   nav ul li {
+    padding-right: 1rem;
+  }
+
+  .social-links li {
+    margin-right: 0.6rem;
+  }
+
+  .top-nav ul li {
     padding-right: 1rem;
   }
 
@@ -513,6 +529,7 @@ footer {
     font-size: 0.8rem;
     color: var(--top-links-color);
   }
+
   nav ul li a {
     color: var(--dark-grey);
     font-size: 0.9rem;
@@ -575,7 +592,6 @@ footer {
 
   .funding-section > div:first-child ul {
     flex-direction: row;
-    padding: ;
   }
 
   .funding-section > div:first-child ul li {
@@ -605,9 +621,14 @@ footer {
     grid-column: 1 / -1;
   }
 
+  .latest-deal {
+    position: relative;
+    height: 180px;
+  }
+
   .latest-deals-discount-container {
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: relative;
     z-index: 2;
   }
@@ -615,7 +636,7 @@ footer {
   .deal {
     width: 0;
     height: 0;
-    border-top: 100px solid #ffcc00;
+    border-top: 100px solid #fc0;
     position: absolute;
     right: 0;
     border-left: 100px solid transparent;
@@ -631,20 +652,22 @@ footer {
     transform: rotate(45deg);
     display: block;
   }
-  .latest-deal {
-    position: relative;
-  }
+
   .latest-deals-content {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 100%;
   }
 
   .latest-deals-content img {
     height: 50%;
     width: 100%;
+  }
+
+  .footer-text-section {
+    flex-direction: row;
   }
 }
 

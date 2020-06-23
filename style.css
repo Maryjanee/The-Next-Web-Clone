@@ -612,7 +612,7 @@ footer {
     z-index: 2;
   }
 
-  .corner {
+  .deal {
     width: 0;
     height: 0;
     border-top: 100px solid #ffcc00;
@@ -621,7 +621,7 @@ footer {
     border-left: 100px solid transparent;
   }
 
-  .corner span {
+  .deal span {
     position: absolute;
     top: -75px;
     width: 100px;

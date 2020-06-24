@@ -365,15 +365,81 @@ main {
 }
 
 .most-popular {
+  width: 100%;
+  padding: 15rem 1rem 1rem 1rem;
+  color: var(--white);
+}
+
+.most-popular:nth-child(1) {
   background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-macos-big-sur-368x276.png");
-  width: 100%;
-  padding: 15rem 1rem 1rem 1rem;
-  color: var(--white);
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(2) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(3) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(4) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(5) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(6) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(7) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+}
+
+.most-popular:nth-child(8) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(231, 226, 226, 0.5),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("https://cdnp2.stackassets.com/568e03025d349d35d5dd1c5973c07964472d9936/store/021abfb1000d1f2aa1f7bb73ea83c67750c15566b177eae8d22a5d4887c3/sale_24292_primary_image.jpg");
 }
 
 .most-popular > p:first-child {
@@ -762,5 +828,18 @@ footer {
 
   .bottom-articles-section {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .most-popular {
+    padding: 10rem 1rem 1rem 1rem;
+  }
+
+  .latest-deal {
+    height: 320px;
+  }
+
+  .latest-deals-content img {
+    height: 65%;
+    width: 100%;
   }
 }

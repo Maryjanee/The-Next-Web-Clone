@@ -581,7 +581,11 @@ footer {
   .latest-deals-discount-container {
     display: block;
   }
-
+  
+  .logo-nav li {
+    padding-right: 0.8rem;
+  }
+  
   .logo-nav li:last-child {
     display: none;
   }

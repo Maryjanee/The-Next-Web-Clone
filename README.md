@@ -19,7 +19,7 @@ In this project:
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/Maryjanee/The-Next-Web-Clone/f40a6f9353a925792c4380024f26cfe63d1a869a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Maryjanee/The-Next-Web-Clone/378893a7a7bf58dad79c6db91fb7366fe875302e/index.html)
 ​
 
 ## Getting Started

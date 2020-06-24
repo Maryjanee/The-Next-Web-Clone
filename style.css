@@ -680,6 +680,11 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  .margin-center {
+    width: 100%;
+    padding: 3rem 7rem 1rem 7rem;
+  }
+
   .conference {
     display: block;
   }
@@ -693,17 +698,69 @@ footer {
     padding: 0.4rem 1rem 0.4rem 1rem;
   }
 
+  .header-ad {
+    justify-content: flex-start;
+    padding: 0.1em 0 0.1em 8rem;
+  }
+
   .main-article:first-child {
-    padding: 1.2em 1.2em 0 1.2em;
+    padding: 2.2em 1.2em 0 1.2em;
     align-items: flex-start;
   }
 
   .big-screen-logo-container {
     display: flex;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
   }
 
   .big-screen-logo-container img {
     width: 25rem;
+  }
+
+  .main-article:first-child > p {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .main-article:nth-child(2) {
+    padding: 7em 1em 0 1em;
+    font-size: 1.6em;
+    line-height: 1.7rem;
+  }
+
+  .main-article:last-child {
+    padding: 9em 1em 0 1em;
+  }
+
+  .main-article:last-child > p {
+    font-size: 1.6em;
+    line-height: 1.7rem;
+  }
+
+  .latest-news-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 0;
+  }
+
+  .funding-section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .funding-section > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .funding-section > div:first-child h2 {
+    margin: 0;
+  }
+
+  .funding-section > div:last-child {
+    display: block;
+  }
+
+  .bottom-articles-section {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

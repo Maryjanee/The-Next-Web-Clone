@@ -198,6 +198,10 @@ main {
   cursor: pointer;
 }
 
+.big-screen-logo-container {
+  display: none;
+}
+
 .main-article:first-child {
   padding: 3em 1.2em 0 1.2em;
   background-image: linear-gradient(
@@ -687,5 +691,19 @@ footer {
   .top-nav,
   nav {
     padding: 0.4rem 1rem 0.4rem 1rem;
+  }
+
+  .main-article:first-child {
+    padding: 1.2em 1.2em 0 1.2em;
+    align-items: flex-start;
+  }
+
+  .big-screen-logo-container {
+    display: flex;
+    margin-bottom: 15rem;
+  }
+
+  .big-screen-logo-container img {
+    width: 25rem;
   }
 }

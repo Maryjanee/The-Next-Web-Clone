@@ -154,6 +154,7 @@ header {
 
 .conference {
   display: none;
+  cursor: pointer;
 }
 
 .conference-p span {
@@ -204,7 +205,8 @@ main {
 
 .main-article:first-child {
   padding: 3em 1.2em 0 1.2em;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -217,7 +219,8 @@ main {
 }
 
 .main-article:last-child {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -371,7 +374,8 @@ main {
 }
 
 .most-popular:nth-child(1) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -380,7 +384,8 @@ main {
 }
 
 .most-popular:nth-child(2) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -389,7 +394,8 @@ main {
 }
 
 .most-popular:nth-child(3) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -398,7 +404,8 @@ main {
 }
 
 .most-popular:nth-child(4) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -407,7 +414,8 @@ main {
 }
 
 .most-popular:nth-child(5) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -416,7 +424,8 @@ main {
 }
 
 .most-popular:nth-child(6) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -425,7 +434,8 @@ main {
 }
 
 .most-popular:nth-child(7) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -434,7 +444,8 @@ main {
 }
 
 .most-popular:nth-child(8) {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -540,6 +551,21 @@ footer {
 
 .heart {
   color: var(--red);
+}
+
+.accessible-btn {
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  background-color: var(--blue);
+  color: var(--white);
+  border: 0;
+}
+
+.accessible-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -770,13 +796,13 @@ footer {
   }
 
   .main-article:first-child {
-    padding: 2.2em 1.2em 0 1.2em;
     align-items: flex-start;
+    padding-top: 2rem;
   }
 
   .big-screen-logo-container {
     display: flex;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
   }
 
   .big-screen-logo-container img {
@@ -841,5 +867,14 @@ footer {
   .latest-deals-content img {
     height: 65%;
     width: 100%;
+  }
+
+  .accessible-btn {
+    border-radius: 50%;
+    right: 1rem;
+  }
+
+  .accessible-btn i {
+    font-size: 1.5rem;
   }
 }

@@ -621,6 +621,7 @@ footer {
   .top-nav * {
     font-size: 0.8rem;
     color: var(--top-links-color);
+    padding-right: 0.2rem;
   }
 
   nav ul li a {

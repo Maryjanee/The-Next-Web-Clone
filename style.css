@@ -209,7 +209,8 @@ main {
 
 .main-article:first-child {
   padding: 3em 1.2em 0 1.2em;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -222,7 +223,8 @@ main {
 }
 
 .main-article:last-child {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -255,7 +257,7 @@ main {
 .latest-news img {
   float: left;
   margin-right: 1rem;
-  width: 25%;
+  width: 35%;
 }
 
 .bottom-article h3 {
@@ -376,76 +378,84 @@ main {
   color: var(--white);
 }
 
-.bottom-article div:nth-child(1) {
-  background-image: linear-gradient(
+.most-popular-1 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
 }
 
-.most-popular:nth-child(2) {
-  background-image: linear-gradient(
+.most-popular-2 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed.jpg");
+    url("img/christopher-gower-_aXa21cf7rY-unsplash.jpg");
 }
 
-.most-popular:nth-child(3) {
-  background-image: linear-gradient(
+.most-popular-3 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/donald-giannatti-Wj1D-qiOseE-unsplash.jpg");
 }
 
-.most-popular:nth-child(4) {
-  background-image: linear-gradient(
+.most-popular-4 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/dose-media-DiTiYQx0mh4-unsplash.jpg");
 }
 
-.most-popular:nth-child(5) {
-  background-image: linear-gradient(
+.most-popular-5 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
 }
 
-.most-popular:nth-child(6) {
-  background-image: linear-gradient(
+.most-popular-6 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg");
 }
 
-.most-popular:nth-child(7) {
-  background-image: linear-gradient(
+.most-popular-7 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("img/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg");
 }
 
-.most-popular:nth-child(8) {
-  background-image: linear-gradient(
+.most-popular-8 {
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdnp2.stackassets.com/568e03025d349d35d5dd1c5973c07964472d9936/store/021abfb1000d1f2aa1f7bb73ea83c67750c15566b177eae8d22a5d4887c3/sale_24292_primary_image.jpg");
+    url("img/uriel-soberanes-MxVkWPiJALs-unsplash.jpg");
 }
 
 .most-popular > p:first-child {
@@ -608,18 +618,6 @@ footer {
     align-items: center;
   }
 
-  nav ul li {
-    padding-right: 1rem;
-  }
-
-  .social-links li {
-    margin-right: 0.6rem;
-  }
-
-  .top-nav ul li {
-    padding-right: 0.6rem;
-  }
-
   .top-nav * {
     font-size: 0.8rem;
     color: var(--top-links-color);
@@ -671,7 +669,8 @@ footer {
   }
 
   .latest-news {
-    height: 250px;
+    height: 270px;
+    padding-bottom: 1rem;
   }
 
   .latest-news img {
@@ -787,6 +786,14 @@ footer {
 
   nav ul li {
     padding-right: 1rem;
+  }
+
+  .social-links li {
+    margin-right: 0.6rem;
+  }
+
+  .top-nav ul li {
+    padding-right: 0.6rem;
   }
 
   .logo-nav li:last-child {

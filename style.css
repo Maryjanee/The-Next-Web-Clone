@@ -209,8 +209,7 @@ main {
 
 .main-article:first-child {
   padding: 3em 1.2em 0 1.2em;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -223,8 +222,7 @@ main {
 }
 
 .main-article:last-child {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -374,13 +372,12 @@ main {
 
 .most-popular {
   width: 100%;
-  padding: 15rem 1rem 1rem 1rem;
+  padding: 15rem 0.5rem 1rem 1rem;
   color: var(--white);
 }
 
-.most-popular:nth-child(1) {
-  background-image:
-    linear-gradient(
+.bottom-article div:nth-child(1) {
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -389,18 +386,16 @@ main {
 }
 
 .most-popular:nth-child(2) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
     ),
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png");
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed.jpg");
 }
 
 .most-popular:nth-child(3) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -409,8 +404,7 @@ main {
 }
 
 .most-popular:nth-child(4) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -419,8 +413,7 @@ main {
 }
 
 .most-popular:nth-child(5) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -429,8 +422,7 @@ main {
 }
 
 .most-popular:nth-child(6) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -439,8 +431,7 @@ main {
 }
 
 .most-popular:nth-child(7) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -449,8 +440,7 @@ main {
 }
 
 .most-popular:nth-child(8) {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(231, 226, 226, 0.5),
       rgba(0, 0, 0, 0.95)
@@ -788,7 +778,7 @@ footer {
 @media screen and (min-width: 1024px) {
   .margin-center {
     width: 100%;
-    padding: 3rem 7rem 1rem 7rem;
+    padding: 3rem 6.5rem 1rem 6.5rem;
   }
 
   .logo-lg {
@@ -875,7 +865,7 @@ footer {
   }
 
   .most-popular {
-    padding: 10rem 1rem 1rem 1rem;
+    padding: 10rem 0.5rem 1rem 1rem;
   }
 
   .latest-deal {
@@ -897,7 +887,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1114px){
+@media screen and (min-width: 1114px) {
   .conference {
     display: block;
   }
